@@ -5,7 +5,7 @@ const consultarPokemon = (id, number) => {
             return response.json();
         })
         .then(data => {
-            //console.log(data);
+            console.log(data);
             pintarPokemon(data, number);
         })
     .catch(error => {
